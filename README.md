@@ -4,7 +4,7 @@ Collection of Solutions to some `Fun Math` Problems posted on LinkedIn by [Doddy
 
 ## Contents
 
-- [222](222)
-- [226](226)
-- [227](227)
-- [241](227)
+- [222](https://github.com/my-LinkedIn/fun-math/tree/main/222)
+- [226](https://github.com/my-LinkedIn/fun-math/tree/main/226)
+- [227](https://github.com/my-LinkedIn/fun-math/tree/main/227)
+- [241](https://github.com/my-LinkedIn/fun-math/tree/main/227)
