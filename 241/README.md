@@ -12,7 +12,7 @@ Shown below are all quadruples {a,b,c,d} where a<b<c<d<1000 and a, b, c, and d a
 #funmath
 ```
 
-<p><img src="https://github.com/my-LinkedIn/funmath241/blob/main/funmath241.jpeg"><p>
+<p><img src="https://github.com/my-LinkedIn/fun-math/tree/main/241/assets/funmath241.jpeg"><p>
 
 ## Source code
 
