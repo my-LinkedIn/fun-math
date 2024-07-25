@@ -6,7 +6,7 @@ Recueuil de Solutions à certains Problèmes `Fun Math` postés par [Doddy Kasta
 
 ## Contents
 
-- 1
-- 2
+- 222
+- 226
 - 3
 - 4
