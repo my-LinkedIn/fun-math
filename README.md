@@ -1,4 +1,4 @@
-# fun-math
+# Fun Math
 
 Collection of Solutions to Certain Problems Posted on [Fun Math]()
 
