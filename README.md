@@ -1,5 +1,5 @@
 # Fun Math
 
-Collection of Solutions to Certain Problems Posted on [Fun Math]()
+Collection of Solutions to some Problems posted on [Fun Math]()
 
-Recueuil de solutions à certains problèmes postés sur [Fun Math]()
+Recueuil de Solutions à certains Problèmes postés sur [Fun Math]()
