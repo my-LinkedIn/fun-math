@@ -6,7 +6,7 @@ Recueuil de Solutions à certains Problèmes `Fun Math` postés par [Doddy Kasta
 
 ## Contents
 
-- 222
-- 226
-- 3
-- 4
+- [222]()
+- [226]()
+- [227]()
+- [241]()
