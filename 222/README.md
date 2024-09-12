@@ -53,30 +53,16 @@ Last Element of the Sequence: 9876351240
 ```rust
 use itertools::Itertools;
 
-fn is_divisible_by_all(n: u64) -> bool {
-    for i in 1..=9 {
-        if n % i != 0 {
-            return false;
-        }
-    }
-    true
-}
-
 fn main() {
-    let digits: Vec<u64> = (0..=9).collect();
-    let mut max_num = 0;
+    let max_num = (0..=9).permutations(10).map(|p| p.into_iter().fold(0i64, |acc, d| acc * 10 + d as i64))
+        .filter(|&n| (1..=9).all(|i| n % i == 0))
+        .max();
 
-    for perm in digits.into_iter().permutations(10) {
-        if perm[0] != 0 {
-            let num = perm.iter().fold(0, |acc, &d| acc * 10 + d);
-
-            if is_divisible_by_all(num) && num > max_num {
-                max_num = num;
-            }
-        }
+    if let Some(max_num) = max_num {
+        println!("{}", max_num);
+    } else {
+        println!("No such number found.");
     }
-    
-    println!("{}", max_num);
 }
 ```
 
