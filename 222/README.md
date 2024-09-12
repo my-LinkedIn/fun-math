@@ -48,6 +48,8 @@ Last Element of the Sequence: 9876351240
 ```
 ## Rust language
 
+Such an appealing modern language. I like it too!
+
 ### Source code
 
 ```rust
