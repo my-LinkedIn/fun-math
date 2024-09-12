@@ -107,11 +107,62 @@ My usual language of choice...
 ### Source code
 
 ```d
+import std.stdio;
+
+class FunMath227 {
+private:
+    immutable int[] denominations = [200, 100, 25, 10, 5];
+    immutable int target = 995;
+    
+    int remaining;
+
+protected:
+    int findCoins(bool reverse) {
+        int coins = 0;
+        int n = cast(int) denominations.length;
+        remaining = target;
+
+        if (reverse) {
+            foreach_reverse (denomination; denominations) {
+                coins += remaining / denomination;
+                remaining = remaining % denomination;
+            }
+        } else {
+            foreach (denomination; denominations) {
+                coins += remaining / denomination;
+                remaining = remaining % denomination;
+            }
+        }
+
+        return coins;
+    }
+
+public:
+    int findMinCoins() {
+        return findCoins(false);
+    }
+
+    int findMaxCoins() {
+        return findCoins(true);
+    }
+}
+
+void main() {
+    FunMath227 funMath227 = new FunMath227();
+    
+    int minCoins = funMath227.findMinCoins();
+    int maxCoins = funMath227.findMaxCoins();
+
+    writeln("Minimum number of coins: ", minCoins);
+    writeln("Maximum number of coins: ", maxCoins);
+}
 ```
 
 ### Output
 
 ```text
+Minimum number of coins: 10
+Maximum number of coins: 199
 ```
 
 ## References
