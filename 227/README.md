@@ -66,7 +66,7 @@ solve minimize
 output ["Min number of coins: \(num_five_cents + num_ten_cents + num_twentyfive_cents + num_one_dollar + num_two_dollars)\n"];
 ```
 
-### Maximisation Objective
+#### Maximisation Objective
 
 ```minizinc
 solve maximize
@@ -78,6 +78,9 @@ solve maximize
 
 output ["Max number of coins: \(num_five_cents + num_ten_cents + num_twentyfive_cents + num_one_dollar + num_two_dollars)\n"];
 ```
+
+## D Language
+
 
 ## Output
 
