@@ -71,7 +71,7 @@ fn main() {
             let num = perm.iter().fold(0, |acc, &d| acc * 10 + d);
 
             if is_divisible_by_all(num) && num > max_num {
-                max_num = num; // println!("{}", max_num);
+                max_num = num;
             }
         }
     }
