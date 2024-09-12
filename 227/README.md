@@ -18,9 +18,11 @@ What were the minimum and maximum number of coins that she could receive?
 
 When it comes to `Discrete Optimisation` problems my way to go is [MiniZinc](https://github.com/my-LinkedIn/funmath227/blob/main/README.md#references)... I strongly recommend it!
 
-## Source code
+## MiniZinc
 
-### Model
+### Source code
+
+#### Model
 
 ```minizinc
 include "globals.mzn";
@@ -51,7 +53,7 @@ constraint
     num_two_dollars * two_dollars == total_change;
 ```
 
-### Minimization Objective
+#### Minimization Objective
 
 ```minizinc
 solve minimize
