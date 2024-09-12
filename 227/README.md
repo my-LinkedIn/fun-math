@@ -79,14 +79,11 @@ solve maximize
 output ["Max number of coins: \(num_five_cents + num_ten_cents + num_twentyfive_cents + num_one_dollar + num_two_dollars)\n"];
 ```
 
-## D Language
-
-
-## Output
+### Output
 
 Nota: MiniZinc can only consider one Objective at a time, so you have to solve 2 distinct problems but using a common Model.
 
-### Minimisation
+#### Minimisation
 ```text
 ...
 Min number of coins: 10
@@ -94,7 +91,7 @@ Min number of coins: 10
 ==========
 Finished in 549msec.
 ```
-### Maximisation
+#### Maximisation
 ```text
 ...
 Max number of coins: 199
@@ -102,6 +99,9 @@ Max number of coins: 199
 ==========
 Finished in 443msec.
 ```
+
+## D Language
+
 
 ## References
 
