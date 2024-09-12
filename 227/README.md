@@ -102,6 +102,17 @@ Finished in 443msec.
 
 ## D Language
 
+My usual language of choice...
+
+### Source code
+
+```d
+```
+
+### Output
+
+```text
+```
 
 ## References
 
