@@ -46,6 +46,45 @@ void main() {
 Second-to-last Element of the Sequence: 9876134520
 Last Element of the Sequence: 9876351240
 ```
+## Rust language
+
+### Source code
+
+```rust
+use itertools::Itertools;
+
+fn is_divisible_by_all(n: u64) -> bool {
+    for i in 1..=9 {
+        if n % i != 0 {
+            return false;
+        }
+    }
+    true
+}
+
+fn main() {
+    let digits: Vec<u64> = (0..=9).collect();
+    let mut max_num = 0;
+
+    for perm in digits.into_iter().permutations(10) {
+        if perm[0] != 0 {
+            let num = perm.iter().fold(0, |acc, &d| acc * 10 + d);
+
+            if is_divisible_by_all(num) && num > max_num {
+                max_num = num; // println!("{}", max_num);
+            }
+        }
+    }
+    
+    println!("{}", max_num);
+}
+```
+
+### Output
+```text
+9876351240
+```
+
 
 ## Racket language [Bonus]
 
