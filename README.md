@@ -9,3 +9,4 @@ Collection of Solutions to some `Fun Math` Problems posted on LinkedIn by [Doddy
 - [226](https://github.com/my-LinkedIn/fun-math/tree/main/226)
 - [227](https://github.com/my-LinkedIn/fun-math/tree/main/227)
 - [241](https://github.com/my-LinkedIn/fun-math/tree/main/227)
+- [358](https://github.com/my-LinkedIn/fun-math/blob/main/358/README.md)
